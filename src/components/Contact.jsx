@@ -63,7 +63,7 @@ const Contact = () => {
               <a href="https://github.com/Mohdshayan234" target="_blank" rel="noreferrer" className="bg-slate-800 p-4 rounded-full text-slate-300 hover:text-white hover:bg-slate-700 transition-all shadow-lg hover:shadow-cyan-500/20">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/mohdshayan" target="_blank" rel="noreferrer" className="bg-slate-800 p-4 rounded-full text-slate-300 hover:text-white hover:bg-slate-700 transition-all shadow-lg hover:shadow-blue-500/20">
+              <a href="https://www.linkedin.com/in/mohd-shayan-10a540392/" target="_blank" rel="noreferrer" className="bg-slate-800 p-4 rounded-full text-slate-300 hover:text-white hover:bg-slate-700 transition-all shadow-lg hover:shadow-blue-500/20">
                 <Linkedin size={24} />
               </a>
             </div>
