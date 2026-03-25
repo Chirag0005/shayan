@@ -73,15 +73,19 @@ const Hero = () => {
             </motion.p>
 
             <motion.div 
-              className="flex items-center space-x-6"
+              className="flex items-center space-x-4 flex-wrap gap-y-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 1.1 }}
             >
-              <a href="#projects" className="px-8 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium hover:scale-105 transition-transform shadow-[0_0_20px_rgba(6,182,212,0.4)]">
+              <a href="#projects" className="px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium hover:scale-105 transition-transform shadow-[0_0_15px_rgba(6,182,212,0.4)] whitespace-nowrap">
                 View My Work
               </a>
-              <div className="flex space-x-4">
+              <a href="/CV.pdf" download className="px-6 py-3 rounded-full bg-slate-800 border border-slate-700 text-white font-medium hover:bg-slate-700 hover:scale-105 transition-all flex items-center whitespace-nowrap">
+                <span className="mr-2">Download CV</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg>
+              </a>
+              <div className="flex space-x-4 ml-2">
                 <a href="https://github.com/Mohdshayan234" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white transition-colors">
                   <Github size={24} />
                 </a>
